@@ -15,6 +15,6 @@ def input_to_index(user_input)
 end
 
 def move(board_array, position, player_char = "X")
-  board_array[position] = player_char
+  puts board_array
   return board_array
 end
