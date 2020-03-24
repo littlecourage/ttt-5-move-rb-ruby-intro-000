@@ -12,12 +12,10 @@ def input_to_index(user_input)
   converted_input = user_input.to_i
   index = converted_input - 1
   puts index
-  return index  
+  return index
 end
 
 def move(board_array, position, player_char = "X")
-  board_array[position] = player_char  
+  board_array[position] = player_char
   return board_array
 end
-
-
